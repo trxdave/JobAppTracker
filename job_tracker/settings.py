@@ -31,11 +31,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    os.environ.get("ALLOWED_HOST"),
-]
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
 
 # Application definition
 
@@ -67,7 +63,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://*.gitpod.io",
-    "jobapptracker-4d560d7ebd1e.herokuapp.com",
+    "https://jobapptracker-4d560d7ebd1e.herokuapp.com",
 ]
 
 
