@@ -65,16 +65,8 @@ SITE_ID = 1
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://www.8000-vasileios20-jobapptrack-llbcz1jmbfv.ws.codeinstitute-ide.net',
-    'https://8000-vasileios20-jobapptrack-5621qkea7ar.ws-us116.gitpod.io',
-    'https://www.8000-vasileios20-jobapptrack-6lu7eot9vyv.ws-eu116.gitpod.io',
-    'https://8000-vasileios20-jobapptrack-xsq6cepinzr.ws.codeinstitute-ide.net',
-    'https://8000-vasileios20-jobapptrack-6lu7eot9vyv.ws-eu116.gitpod.io',
-    'https://8000-vasileios20-jobapptrack-akj1o3fuxmu.ws-eu116.gitpod.io/',
-    'https://8000-vasileios20-jobapptrack-mj4cdfx0pfc.ws-eu116.gitpod.io',
-    'https://8000-vasileios20-jobapptrack-akj1o3fuxmu.ws-eu116.gitpod.io',
-    'https://8000-vasileios20-jobapptrack-ibxgsdfkvu3.ws.codeinstitute-ide.net',
-    'https://8000-vasileios20-jobapptrack-llbcz1jmbfv.ws.codeinstitute-ide.net',
+    "https://*.herokuapp.com",
+    "https://*.gitpod.io",
 ]
 
 
