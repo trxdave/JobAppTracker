@@ -35,14 +35,6 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     os.environ.get("ALLOWED_HOST"),
-    '8000-vasileios20-jobapptrack-llbcz1jmbfv.ws.codeinstitute-ide.net',
-    '8000-vasileios20-jobapptrack-mj4cdfx0pfc.ws-eu116.gitpod.io',
-    '8000-vasileios20-jobapptrack-6lu7eot9vyv.ws-eu116.gitpod.io',
-    '8000-vasileios20-jobapptrack-jdhekqqlmug.ws.codeinstitute-ide.net',
-    '8000-vasileios20-jobapptrack-xsq6cepinzr.ws.codeinstitute-ide.net',
-    '8000-vasileios20-jobapptrack-5621qkea7ar.ws-us116.gitpod.io',
-    '8000-vasileios20-jobapptrack-akj1o3fuxmu.ws-eu116.gitpod.io'
-
 ]
 
 # Application definition
