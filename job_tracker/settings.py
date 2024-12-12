@@ -67,6 +67,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://*.gitpod.io",
+    "jobapptracker-4d560d7ebd1e.herokuapp.com",
 ]
 
 
